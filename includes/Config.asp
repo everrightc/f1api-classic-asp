@@ -14,4 +14,8 @@ Dim consumerKey, consumerSecret
 consumerKey = ""
 consumerSecret = ""
 
+' Call back url is the url that we want fellowship one to return us to after login is successful
+Dim callBackUrl
+callBackUrl = "http://aspoauth.local/AccessToken.asp"
+
  %>

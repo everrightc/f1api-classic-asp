@@ -15,9 +15,7 @@ peopleUrl = baseF1APIUrl & "v1/"
 Dim givingUrl
 givingUrl = baseF1APIUrl & "giving/v1"
 
-' Call back url is the url that we want fellowship one to return us to after login is successful
-Dim callBackUrl
-callBackUrl = "http://aspoauth.local/AccessToken.asp"
+
 
 ' ===============================================
 ' Set the request token to the cookies This is a semi overload to the SetRequestToken in OAuth.asp
