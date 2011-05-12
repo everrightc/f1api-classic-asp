@@ -146,7 +146,7 @@ Sub CreateOAuthQueryStringValues()
         queryStringValues = queryStringValues & "&oauth_version=1.0"
       
         ' Get the nonce
-        queryStringValues = queryStringValues & "&oauth_nonce=" & CurrentNonce(6)
+        queryStringValues = queryStringValues & "&oauth_nonce=" & CurrentNonce(32)
 
         ' Get the timestamp
         queryStringValues = queryStringValues & "&oauth_timestamp=" & CurrentTimeStamp()
